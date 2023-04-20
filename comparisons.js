@@ -21,24 +21,31 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // this should log: "Is numberTeachers greater than numberStudents?" false
 
 // YOU DO: log the result of the comparison: is numberTeachers less than numberStudents?
+console.log("Is numberTeachers less than numberStudents?", numberTeachers < numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberTeachers strictly equal to stringTeachers?
+console.log("Is numberTeachers strictly equal to stringTeachers?", numberTeachers === stringTeachers);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberTeachers not equal to numberStudents?
+console.log("Is numberTeachers not equal to numberStudents?", numberTeachers !== numberStudents);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 20?
+console.log("Is numberStudents greater than or equal to 20?", numberStudents >= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents greater than or equal to 21?
+console.log("Is numberStudents greater than or equal to 21?", numberStudents >= 21);
 // this should log: false
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 20?
+console.log("Is numberStudents less than or equal to 20?", numberStudents <= 20);
 // this should log: true
 
 // YOU DO: log the result of the comparison: is numberStudents less than or equal to 21?
+console.log("Is numberStudents less than or equal to 21?", numberStudents <= 21);
 // this should log: true
 
 
@@ -52,21 +59,27 @@ console.log("Is numberTeachers greater than numberStudents?", numberTeachers > n
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain.
+// YOU DO: This comparision evaluates if the number 4 is larger than the number 9.
+// this should log: true
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: This comparision evaluates if the number 4 less than 4 books.
+// this should log: true
+
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: This comparision evaluates if the number of friends is greater than the number of sibilings.
+// this should log true
+
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
-// YOU DO: Explain.
+// YOU DO: This comparision evaluates if the number of attendees is not equal to the number of meals.
+// this should log true
 
 
 // #-------------------
@@ -88,16 +101,18 @@ var lovesTreats = true;
 var age = 1;
 
 // YOU DO:
-// Determine if the dog loves to play and loves treats
 
+// Determine if the dog loves to play and loves treats
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
+console.log(lovesToPlay && age < 1);
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: My final line of code evaluated to the number false, as I set the age for a puppy to be <1 year old and the dog is 1. 
