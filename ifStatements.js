@@ -11,7 +11,10 @@
   // if it is snowy, print "coat"
   // if it is icy, print "yak traks"
 
-var weather = "icy"
+
+// Experiment with manipulating the value held in variable 'weather'
+// to print something other than 'coat'
+var weather = "sunny"
 
 if (weather === "sunny") {
   console.log("sunscreen");
@@ -25,8 +28,7 @@ if (weather === "sunny") {
   console.log("good to go!");
 }
 
-// Experiment with manipulating the value held in variable 'weather'
-// to print something other than 'coat'
+// prints "sunscreen"
 
 
 // ##################
@@ -46,10 +48,12 @@ var numQuarters = 5
 
 if (numQuarters === 5) {
   console.log("I have enough money for a gumball"); 
-} else if (numQuarters < 5) {
+} else {
   console.log("I don't enough money for a gumball");
+
 }
 
+// prints "I have enough money for a gumball"
 
 // #####################
 // Using the variables defined below, write code that will tell you
@@ -74,3 +78,4 @@ if (cupsOfFlour > 2 && hasSauce) {
   console.log("I cannot make pizza");
 }
 
+// prints "I cannot make pizza"
